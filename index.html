@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Checklist de Inspeção de Empilhadeiras</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Checklist de Inspeção de Empilhadeiras</h1>
+
+        <!-- Informações da Frota -->
+        <div class="info-frota">
+            <label for="numeroFrota">Número da Frota:</label>
+            <input type="text" id="numeroFrota" placeholder="Digite o número da frota...">
+
+            <label for="nomeOperador">Nome do Operador:</label>
+            <input type="text" id="nomeOperador" placeholder="Digite o nome do operador...">
+
+            <label for="matriculaOperador">Matrícula:</label>
+            <input type="text" id="matriculaOperador" placeholder="Digite a matrícula...">
+
+            <label for="dataInspecao">Data:</label>
+            <input type="date" id="dataInspecao">
+
+            <label for="horaInspecao">Hora:</label>
+            <input type="time" id="horaInspecao">
+        </div>
+
+        <div class="checklist-box">
+            <h2>Inspeções</h2>
+            <ul id="checklist">
+                <li class="checklist-item">
+                    <span>Nível de óleo do motor</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Funcionamento dos freios</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Condição dos pneus</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Funcionamento da buzina</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Verificação das luzes</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Limpeza do equipamento</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Condição das correntes</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Nível da bateria</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Funcionamento do ar-condicionado</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Inspeção das chaves de segurança</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Verificação dos refletores</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Nível de fluido de freio</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Funcionamento do sistema hidráulico</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Verificação do volante</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Estado dos cintos de segurança</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Condição do mastro</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Verificação da carga máxima permitida</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Inspeção do piso de operação</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Verificação da proteção contra quedas</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Nível de combustível</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Teste de inclinação</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Inspeção de mangueiras</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Funcionamento dos indicadores de painel</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Verificação do motor</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Inspeção da bateria</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Checagem das luzes de emergência</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+                <li class="checklist-item">
+                    <span>Inspeção do sistema de transmissão</span>
+                    <label><input type="checkbox" class="conforme"> Sim</label>
+                    <label><input type="checkbox" class="nao-conforme"> Não</label>
+                </li>
+            </ul>
+
+            <!-- Caixinha de Observação -->
+            <div class="observacao">
+                <label for="observacao">Observações:</label>
+                <textarea id="observacao" rows="4" placeholder="Digite suas observações aqui..."></textarea>
+                <button id="salvarObservacao">Salvar</button>
+            </div>
+
+            <div class="lista-observacoes">
+                <h2>Observações Salvas:</h2>
+                <ul id="observacoesSalvas"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
